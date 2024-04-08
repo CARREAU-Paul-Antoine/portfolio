@@ -898,9 +898,6 @@ section {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
-
-
 .about-stats .box-container {
   display: -ms-grid;
   display: grid;
@@ -935,3 +932,5 @@ section {
   font-weight: normal;
   text-transform: uppercase;
 }
+
+/*# sourceMappingURL=styles.css.map */
