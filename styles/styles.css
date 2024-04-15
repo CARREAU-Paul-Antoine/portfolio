@@ -380,6 +380,9 @@ section {
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
+ h4 {
+  margin-top: 20px;
+}
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
   justify-content: center;
@@ -563,7 +566,10 @@ section {
 /*Independed components*/
 .btn-con {
   display: flex;
-  align-self: flex-start;
+  align-self: center ;
+  justify-content: center;
+  margin-top: 20px;
+
 }
 
 .main-btn {
@@ -631,6 +637,7 @@ section {
   font-weight: 800;
   font-size: 6.3rem;
 }
+
 
 .about-container .left-about p {
   padding-left: 0;
@@ -932,5 +939,37 @@ section {
   font-weight: normal;
   text-transform: uppercase;
 }
+
+/* Styles généraux de la scrollbar */
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Style de la poignée (thumb) de la scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #454e56;
+  border-radius: 6px;
+}
+
+/* Style de la piste (track) de la scrollbar */
+::-webkit-scrollbar-track {
+  background-color: var(--color-grey-5);
+}
+
+.tl-duration {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0.2rem 0.6rem;
+  background-color: var(--color-grey-5);
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
 
 /*# sourceMappingURL=styles.css.map */
